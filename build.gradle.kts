@@ -45,6 +45,7 @@ dependencies {
         plugins(providers.gradleProperty("platformPlugins").map { it.split(',') })
 
         testFramework(TestFrameworkType.Platform)
+        plugin("PythonCore:251.25410.59")
     }
 }
 
